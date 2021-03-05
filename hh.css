@@ -1,0 +1,10 @@
+.game_container {
+    padding: 20px;
+}
+.pane {
+    width = 50%; 
+    border: 5px solid blue; 
+    padding: 20px; 
+    float: left; 
+    margin: 10px;
+}

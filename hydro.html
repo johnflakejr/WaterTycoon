@@ -2,11 +2,24 @@
 <head>
 	<title>Hydro Homie - An Incremental Game about Water</title>
 	<script src="hydro.js"></script>
+    <link rel="stylesheet" href="hh.css">
 </head>
 <body>
 <h1 id="oz_title">You've had this many OZ of water:</h1>
 <h1 id="oz_counter">0</h1>
-<button id="drink_button" onclick="drinkOne()">Drink!</button>
-<button id="chug_button" style="display:none;" onclick="chugOne()">Chug a 12 oz can of water!</button>
+
+
+<div class="game_container">
+    <div class="pane" id="game_pane">
+    <h2 id="message_box">Drink up big boi.</h2>
+    <button id="drink_button" onclick="drinkOne()">Drink!</button>
+    <button id="chug_button" style="display:none;" onclick="chugOne()">Chug a 12 oz can of water!</button>
+    <button id="slurp_button" style="display:none;" onclick="slurp()">SLURP</button>
+    <button id="hydrate_button" style="display:none;" onclick="hydrate()">H - Y - D - R - A - T - E</button>
+    </div>
+    <div class="pane" id="store_pane">
+    <h2 id="store_box">The Water Store.</h2>
+    </div>
+</div>
 </body>
 </html>

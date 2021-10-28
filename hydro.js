@@ -1,5 +1,5 @@
 /*
-  Hydrohomie - an incremental game about water. 
+  Watertycoon - an incremental game about water. 
   by @jfljr
 */
 
